@@ -1,44 +1,45 @@
-<strong>#Bank Database Management System</strong>.
-
+# Bank Database Management System
 
 This repository contains SQL scripts for creating and managing a comprehensive database system for a bank using Oracle SQL. The scripts are organized to facilitate the creation of essential tables, procedures, and functions required for efficient bank operations.
 
-SQL Files Overview:
-account.sql
+## SQL Files Overview:
 
-Defines the structure and attributes of the 'account' table to store account information.
-addnewcustomer_procedure.sql
+1. **account.sql**
+   - Defines the structure and attributes of the 'account' table to store account information.
 
-Implements a stored procedure to add a new customer to the database.
-addresschangelog.sql
+2. **addnewcustomer_procedure.sql**
+   - Implements a stored procedure to add a new customer to the database.
 
-Manages the address change log, providing a record of customer address modifications.
-customer.sql
+3. **addresschangelog.sql**
+   - Manages the address change log, providing a record of customer address modifications.
 
-Establishes the 'customer' table to store customer details.
-deletecustomer_procedure.sql
+4. **customer.sql**
+   - Establishes the 'customer' table to store customer details.
 
-Contains a stored procedure to safely delete a customer from the database.
-getaveragetransactionamount.sql
+5. **deletecustomer_procedure.sql**
+   - Contains a stored procedure to safely delete a customer from the database.
 
-SQL query to retrieve the average transaction amount from the 'transaction' table.
-processtransaction_procedure.sql
+6. **getaveragetransactionamount.sql**
+   - SQL query to retrieve the average transaction amount from the 'transaction' table.
 
-Implements a stored procedure to process transactions and update account balances.
-transaction.sql
+7. **processtransaction_procedure.sql**
+   - Implements a stored procedure to process transactions and update account balances.
 
-Defines the 'transaction' table structure for recording transaction details.
-updatecustomeraddress_procedure.sql
+8. **transaction.sql**
+   - Defines the 'transaction' table structure for recording transaction details.
 
-Includes a stored procedure to update customer addresses efficiently.
-updateemp_procedure.sql
+9. **updatecustomeraddress_procedure.sql**
+   - Includes a stored procedure to update customer addresses efficiently.
 
-Stored procedure for updating employee details in the database.
-Usage:
-Execute the SQL scripts in the provided order to create the necessary tables and procedures.
+10. **updateemp_procedure.sql**
+    - Stored procedure for updating employee details in the database.
 
-Customize the scripts as needed to align with specific business requirements.
+## Usage:
 
-Refer to individual script files for additional details and comments.
+1. Execute the SQL scripts in the provided order to create the necessary tables and procedures.
+
+2. Customize the scripts as needed to align with specific business requirements.
+
+3. Refer to individual script files for additional details and comments.
 
 Feel free to reach out for any inquiries or improvements. Happy coding!
