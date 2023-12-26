@@ -1,4 +1,6 @@
-#Bank Database Management System
+<strong>#Bank Database Management System</strong>.
+
+
 This repository contains SQL scripts for creating and managing a comprehensive database system for a bank using Oracle SQL. The scripts are organized to facilitate the creation of essential tables, procedures, and functions required for efficient bank operations.
 
 SQL Files Overview:
